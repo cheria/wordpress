@@ -111,4 +111,14 @@ function menu_meta_update($post_id){
 <!-- menu -->
 add_theme_support('post-thumbnails');
 add_theme_support('menus');
+
+<!-- custom headder -->
+add_custom_image_header('header_style', 'admin_header_style');
+define('HEADER_IMAGE_WIDTH',       685);
+define('HEADER_IMAGE_IMAGE_HEIGHT',200);
+define('HEADER_TEXTCOLOR'  , '');
+function header_style() {
+}
+function admin_header_style(){
+}
 ?>
